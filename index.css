@@ -12,7 +12,24 @@ body {
 	height: 100vh;
 }
 
+.container {
+	height: 100%;
+	padding: 2em 4em;
+}
+
+header {
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	color: rgb(61, 140, 231);
+}
+h1 > span {
+	color: #f5f5f5;
+}
+
 a {
+	display: block;
 	color: #f5f5f5;
 	text-decoration: none;
 	text-align: left;
@@ -27,57 +44,46 @@ a>span:hover {
 	text-decoration-color: #f5f5f5;
 }
 
+hr {
+	color: #608b4e;
+	width: 80%;
+	max-width: 900px;
+	height: 4px;
+	margin: 1em auto;
+	border: none;
+}
+
 hr::before {
 	position: relative;
 	left: -50%;
-	top: -50%;
+	top: -0.65em;
 	content: "<!--"
 }
 
 hr::after {
 	position: relative;
 	content: "-->";
+	top: -0.65em;
 	right: -50%;
-	top: -50%;
 }
 
-hr {
-	color: #608b4e;
-	width: 80%;
-	max-width: 900px;
-	height: 4px;
-	margin: 0 auto;
-	border: none;
-}
-
-.container {
-	display: flex;
-	flex-direction: row;
-	height: 100%;
-}
-
-nav {
+ul {
+	list-style: none;
 	margin: 0;
 	padding: 0;
 	background-color: #1d1d19;
+	text-align: left;
 }
 
-.web-nav {
-	position: fixed;
-	display: flex;
-	flex-direction: column;
-	top: 2.5%;
-	left: 2.5%;
-	max-width: 10em;
-	order: 1;
+.web-links {
+	height: 200px;
+	display: block;
+	width: 100%;
 }
 
 main {
 	margin: 0 auto;
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	order: 2;
+	display: block;
 	width: 100%;
 	height: 100%;
 	background: #1d1d19;
@@ -90,13 +96,9 @@ main {
 	display: none;
 }
 
-header {
-	padding: 12% 0;
-}
-
 section {
 	min-height: 200px;
-	padding: 6% 0;
+	padding: 0;
 	background-color: #1d1d19;
 }
 
