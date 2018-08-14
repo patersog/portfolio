@@ -81,6 +81,10 @@ a > span {
 	text-decoration: none;
 }
 
+hr {
+	border: 1.5px solid #f5f5f5;
+}
+
 a:hover > span {
 	text-decoration: underline;
 	text-decoration-color: #f5f5f5;
@@ -104,10 +108,13 @@ ul {
 	text-align: left;
 }
 
-.web-links {
-	padding-left: 1em;
+nav {
 	display: block;
 	width: 100%;
+}
+
+nav > ul {
+	padding-left: 1em;
 }
 
 main {
