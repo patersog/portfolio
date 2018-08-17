@@ -4,7 +4,7 @@
 
 body {
 	font-family: Consolas, Menlo, "Courier New", monospace;
-	background: rgb(29, 29, 25);
+	background: rgb(0, 0, 0);
 	text-align: left;
 	color: rgb(245, 245, 245);
 	margin: 0;
@@ -19,6 +19,7 @@ body {
 	line-height: 1.5;
 	font-size: 1em;
 	padding: 2em 2em;
+	background: rgb(29, 29, 25);
 }
 
 .content {
@@ -159,13 +160,15 @@ figure {
 
 img {
 	width: 100%;
-	
 }
 
 .p-img {
+	border: 1px solid rgb(29, 29, 25);
+	border-radius: 5px;
 	width: 100%;
 	max-height: 500px;
 	max-width: 500px;
+	box-shadow: 0 0 20px rgb(61, 140, 231);
 }
 
 .h-item {
