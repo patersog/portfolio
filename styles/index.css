@@ -72,6 +72,11 @@ a > span {
 	color: rgb(245, 245, 245);
 }
 
+.live-link:hover {
+	text-decoration: underline;
+	text-decoration-color: rgb(245, 245, 245);
+}
+
 hr {
 	background-color: rgb(245, 245, 245);
 	border: 1.5px solid rgb(245, 245, 245);
